@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+html {
+    background-color: black
+}
+
+.choreoplayer-presentation-video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+
+.centered {
+    position: fixed; /* or absolute */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1
+}
+
+.logotext {
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 2vw;
+    font-family: 'Exo 2', sans-serif;
+}
